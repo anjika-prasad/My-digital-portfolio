@@ -22,7 +22,7 @@ To run this project locally:
 
 📸 Screenshots
 
-![Portfolio Screenshot](images\ss.jpg)
+![Portfolio Screenshot](https://github.com/anjika-prasad/My-digital-portfolio/blob/main/images/ss.jpg)
 
 🤝 Contributing
 If you'd like to improve this portfolio, feel free to fork this repository and submit a pull request!
