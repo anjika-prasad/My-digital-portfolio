@@ -9,9 +9,20 @@ It is built using HTML,CSS,JavaScript.
 - 📁 Project descriptions
 - 📬 Contact form to get in touch
 
+⚙️ Installation & Setup
+To run this project locally:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/anjika-prasad/My-digital-portfolio.git
+2. cd My-digital-portfolio
+3. npm install
+   npm start
+
+
+
 📸 Screenshots
 
-![Portfolio Screenshot]()
+![Portfolio Screenshot](images\ss.jpg)
 
 🤝 Contributing
 If you'd like to improve this portfolio, feel free to fork this repository and submit a pull request!
