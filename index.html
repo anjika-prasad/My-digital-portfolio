@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images\AP2.jpg" id="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi,<span id="typewriter"></span></h1>
+        </div>
+      </div>
+    </div>
+    <div id="#about">
+      <div class="container"></div>
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images\one good photo .jpg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Hi! I'm Anjika, a passionate coder with a growing love for machine learning. When I'm not exploring algorithms and building models, you’ll find me immersed in a fiction romance novel or watching Bollywood movies. Music is a big part of my life—I'm a huge fan of BTS and Taylor Swift!
+
+            Beyond tech, I express my creativity through sketching, dancing, and experimenting in the kitchen. I love learning new things and pushing my limits, whether it's through coding challenges or perfecting a new recipe.
+            
+            Welcome to my digital space—let’s connect and create something amazing!
+            
+            
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing web/App interfaces</li>
+              <li><span>Web Development</span><br />Web App development</li>
+              <li>
+                <span>Machine Learning</span><br />Creating machine learning
+                models
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+             
+              <li><span>April 2020 - April 2022</span><br />Head Girl of school</li>
+              <li>
+                <span>July 2012 - Oct 2019</span><br />Class Representative
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Current</span><br />Btech IT VIT Vellore cgpa: 9.67</li>
+              <li><span>2024</span><br />Passed 12th grade with 93%</li>
+              <li>
+                <span>2022</span><br />Passed 10th grade with 96.6%
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+        <div class="container"></div>
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Web Design</h2>
+            <p>
+              I create clean, responsive, and visually captivating websites that
+              prioritize user experience and brand identity. With a focus on
+              modern aesthetics and functionality, I ensure your website not only
+              looks great but also performs seamlessly across all devices. Let’s
+              build a digital space that truly represents your vision!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I bring designs to life with clean, efficient, and scalable code.
+              From interactive user interfaces to robust backend solutions, I
+              craft websites that are not only visually appealing but also highly
+              functional. Let’s turn your ideas into a dynamic online presence!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-computer"></i>
+            <h2>Machine Learning</h2>
+            <p>
+              Harnessing the power of data to build intelligent solutions that
+              adapt and evolve. I develop machine learning models tailored to
+              solve real-world problems, enabling predictive insights, automation,
+              and smarter decision-making. Let’s innovate together with the power
+              of AI!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+  
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images\clone.jpg" />
+              <div class="layer">
+                <h3>Social Media Apps</h3>
+                <p>
+                  Cloned a lot of famous social media apps and added functional
+                  features to make it better than it already is!
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/portfolio.jpg" />
+              <div class="layer">
+                <h3>Portfolio Website</h3>
+                <p>
+                  This is the project you are currently looking. I hope I can add
+                  more genuine work on my own website.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+  
+            <div class="work">
+              <img src="images\Game dev.jpg" />
+              <div class="layer">
+                <h3>Gaming Website</h3>
+                <p>
+                  It is a collection of all the js games you can find on
+                  internet.I hope my logic building skills get better.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>anjikapd9106@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8690656938</p>
+                <div class="social-icons">
+                    <a href="https://pin.it/4gHkYDvwe"><i class="fa-brands fa-square-pinterest"></i></a>
+                    <a href="https://www.instagram.com/its_anjikaaa/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+                    <a href="https://www.linkedin.com/in/anjika-prasad-9b393b331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="Images/Anjika Resume.docx" download class="btn btn2">Download CV</a>
+
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Anjika Prasad. All rights reserved.</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+          for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+          }
+          for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+  <script src="https://kit.fontawesome.com/f596e5c8ce.js" crossorigin="anonymous"></script>
+  <script>
+    const text = "I am Anjika Prasad from India";
+    let index = 0;
+    function typeWriter() {
+        if (index < text.length) {
+            document.getElementById("typewriter").textContent += text.charAt(index);
+            index++;
+            setTimeout(typeWriter, 100); // Adjust speed here
+        }
+    }
+    window.onload = typeWriter; // Run function when page loads
+</script>
+  </body>
+</html>
